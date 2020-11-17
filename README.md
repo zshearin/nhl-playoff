@@ -1,13 +1,10 @@
 # march-madness
 
 ## Description
-This script predicts your final four 
-- Uses bracket seed as relative weighting (e.g. 1 vs. 16 seed - the 1 seed would have a 16/17 or 94.1% chance of winning) in regoinal rounds (round of 64, 32, 16 and 8) 
-- Final four and championship game are treated as a coin flip
+This application predicts the results of the NHL playoffs (using seedings 1-8 for East and West Conferences) 
 
-- Strictly for March Madness purposes
+This is similar to my march madness script, but only use the round of 16 on and rename the "regions" instead to the East and West Conferences (until the final matchup)
 
-## Usage:
-`make run` runs the program
+Needs refactoring (poorly structured)
 
-`make build` builds a binary of the program
+
